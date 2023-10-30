@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobby & Game Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>
+        <h1>
+          <span style="border: 2px solid rgb(255, 255, 255); padding: 2px"
+            >He</span
+          >isenboard
+          <span style="border: 2px solid rgb(255, 255, 255); padding: 2px"
+            >Di</span
+          >stributions LLC
+        </h1>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#customers">Customers</a></li>
+          <li><a href="#sales">Sales</a></li>
+          <li><a href="#leads">Leads</a></li>
+          <li><a href="#marketing">Marketing</a></li>
+          <li><a href="#reports">Reports</a></li>
+          <li><a href="#tasks">Tasks</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h2>Welcome to Heisenboard Distrobutions LLC</h2>
+        <p>
+          Discover our wide range of products and find the perfect game or hobby
+          for you!
+        </p>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products">
+        <h2>Our Products</h2>
+        <ul class="product-list">
+          <li>
+            <img src="Lyptus-Twenty-Sided-Die-d20.jpg" alt="Product 1" />
+            <h3>Lyptus 20 Sided Die</h3>
+            <p>Beautiful custom made Lyptus Die</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <img
+              src="Yucatan-Rosewood-Twenty-Sided-Die-d20.jpg"
+              alt="Product 2"
+            />
+            <h3>Rosewood 20 Sided Die</h3>
+            <p>Beautiful custom made Rosewood Die</p>
+            <button>Add to Cart</button>
+          </li>
+          <!-- Add more products as needed -->
+        </ul>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          We are a dedicated team of nerds, passionate about bringing the best
+          nerd stuff to our fellow nerds.
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Heisenboard Distrobutions LLC. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
